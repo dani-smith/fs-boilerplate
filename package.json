@@ -1,0 +1,23 @@
+{
+  "name": "fs-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.5",
+    "objection": "^1.4.0",
+    "sqlite3": "^4.0.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
