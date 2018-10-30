@@ -7,7 +7,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "web": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +17,21 @@
     "knex": "^0.15.2",
     "nodemon": "^1.18.5",
     "objection": "^1.4.0",
-    "sqlite3": "^4.0.3"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "sqlite3": "^4.0.3",
+    "superagent": "^4.0.0-beta.5",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
   "description": ""
 }
